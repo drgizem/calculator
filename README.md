@@ -5,4 +5,4 @@ created by React
 
 ## Screenshot
 
-![](.calculator-screen.jpg)
+![](./calculator-screen.jpg)
