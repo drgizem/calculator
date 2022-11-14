@@ -1,0 +1,147 @@
+.container {
+  position: relative;
+  background-color: black;
+  text-align: center;
+  margin: auto auto;
+  width: 402px;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+body {
+  color: white;
+  background-color: rgb(255, 191, 255);
+}
+.coder {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: gray;
+}
+span {
+  color: rgb(7, 7, 129);
+}
+.firstline {
+  color: rgb(248, 237, 80);
+  word-wrap: break-word;
+}
+button {
+  color: white;
+  font-weight: bold;
+}
+.calc {
+  position: absolute;
+  top: 25px;
+  right: 5px;
+  word-wrap: break-word;
+}
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#decimal:hover,
+#divide:hover,
+#add:hover,
+#subtract:hover,
+#multiply:hover,
+#equals:hover {
+  color: black;
+  border-color: white;
+  max-width: 110px;
+}
+.dark {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  gap: 1px;
+}
+.p-first,
+.p-second,
+.p-third {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+.dark {
+  height: 50px;
+  font-size: 22px;
+}
+.primary {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.secondary {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.ternary {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+#clear,
+#zero {
+  width: 200px;
+  height: 70px;
+  background-color: brown;
+}
+#clear:hover,
+#zero:hover {
+  color: black;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#decimal {
+  width: 100px;
+  height: 70px;
+}
+#equals {
+  width: 100px;
+  height: 140px;
+  background-color: rgb(75, 75, 212);
+}
+#divide,
+#add,
+#subtract,
+#multiply {
+  background-color: grey;
+  width: 100px;
+  height: 70px;
+}
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#decimal {
+  background-color: rgb(78, 74, 74);
+}
